@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "http://localhost:4000/api/todos";
+const API_URL = "https://todo-app-seven-liard-52.vercel.app/api/todos";
 
 export default function TodoApp() {
   const [todos, setTodos] = useState([]);
